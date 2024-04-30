@@ -1,0 +1,109 @@
+body {
+    background-color: #333;
+}
+
+.main nav a.nav-link-home,
+.about nav a.nav-link-about,
+.goal nav a.nav-link-goal,
+.socials a.nav-link-socials {
+    color: white;
+}
+
+.nav-link-discord {
+    float: right;
+    margin-left: 10px; /* Add some margin to separate the links */
+}
+
+.nav-link-email {
+    float: right;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: verdana;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    /* Remove hover state */
+    color: white !important;
+    text-decoration: none !important;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #666666;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #d3d3d3;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(241, 241, 241);
+}
+
+a:active {
+    color: white;
+}
+
+.server {
+    align-items: right;
+}
+
+.icon-tiktok {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    width: 30px;
+    height: auto;
+}
+
+.icon-x {
+    position: absolute;
+    top: 11px;
+    right: 45px; /* Adjusted the right property to position it closer to the TikTok icon */
+    width: 47px;
+    height: auto;
+}
+
+.boxed {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
